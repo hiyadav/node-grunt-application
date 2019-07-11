@@ -76,7 +76,7 @@ module.exports = function(grunt) {
   }
 
   // Run task functions to configure Grunt.
-  //invokeConfigFn(taskConfigurations);
-  invokeConfigFn([registerDefinitions.build]);
+  invokeConfigFn(taskConfigurations);
+  invokeConfigFn(registerDefinitions);
 
 };
